@@ -1,0 +1,17 @@
+/* used for gallery in GalleryRatingSection, `~` of import required by docs */
+@import "~react-image-gallery/styles/css/image-gallery.css";
+
+.image-gallery-image {
+    max-height: 25rem !important;
+    object-fit: contain;
+}
+
+.image-gallery-thumbnail {
+    border-radius: 1rem;
+}
+
+.image-gallery-thumbnail-image {
+    max-height: 5rem;
+    border-radius: 0.7rem;
+    object-fit: contain;
+}
